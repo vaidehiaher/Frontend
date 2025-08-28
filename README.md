@@ -1,87 +1,100 @@
-🚀 Overview
+Project Overview
 
-This project was built as part of an internship assignment.
-It contains two reusable UI components built with:
+This project was built as part of an internship assignment. It demonstrates skills in React, TypeScript, TailwindCSS, Storybook, Testing, and Accessibility.
 
-⚛️ React
+🔑 Features Implemented:
 
-📘 TypeScript
+✅ InputField Component
 
-🎨 TailwindCSS
+Label + helper text
 
-📚 Storybook
+Accessible with aria- attributes
 
-The components are:
+Validation support
 
-InputField – a flexible input component with different states, sizes, and variants.
+✅ DataTable Component
 
-DataTable – a data table with sorting, selection, loading, and empty states.
+Sortable columns
 
-🎯 Features
-✅ InputField
+Selectable rows (with aria-selected)
 
-Label, placeholder, helper text, error message
+Keyboard-accessible controls
 
-States: disabled, invalid
+✅ Styling
 
-Variants: filled, outlined, ghost
+TailwindCSS for modern responsive design
 
-Sizes: small, medium, large
+✅ Storybook Integration
 
-Optional: clear button, password toggle (not implemented – optional in spec)
+Interactive UI docs
 
-✅ DataTable
+Deployed with Chromatic
 
-Display tabular data
+📚 Live Storybook Demo
 
-Column sorting (ascending/descending)
+✅ Testing
 
-Row selection (multiple)
+Unit tests with React Testing Library + Jest
 
-Loading state
+Accessibility & interaction tests
 
-Empty state
+100% passing ✅
 
-📂 Folder Structure
-frontend-assignment/
-├── src/
-│   ├── components/
-│   │   ├── InputField.tsx
-│   │   ├── InputField.stories.tsx
-│   │   ├── DataTable.tsx
-│   │   ├── DataTable.stories.tsx
-│   ├── App.tsx
-│   ├── index.css
-│   └── ...
-├── .storybook/
-├── package.json
-└── README.md
-
-🛠️ Setup Instructions
-1. Clone the repository
-git clone <your-repo-url>
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/frontend-assignment.git
 cd frontend-assignment
 
-2. Install dependencies
+2️⃣ Install dependencies
 npm install
 
-3. Run the app
+3️⃣ Run the app locally
 npm start
 
 
-App runs at 👉 http://localhost:3000
+Open 👉 http://localhost:3000
 
-4. Run Storybook
+4️⃣ Run Storybook locally
 npm run storybook
 
 
-Storybook runs at 👉 http://localhost:6006
+Open 👉 http://localhost:6006
 
-## Run project
-npm start
-
-## Run Storybook
-npm run storybook
-
-## Run tests
+5️⃣ Run tests
 npm test
+
+🛠️ Tech Stack
+
+⚛ React (with TypeScript) – Component-based UI
+
+🎨 TailwindCSS – Utility-first styling
+
+📚 Storybook – Component documentation & playground
+
+✅ Jest + React Testing Library – Unit & accessibility testing
+
+🌈 Chromatic – Storybook hosting & visual testing
+
+📸 Preview
+
+Here’s a quick look at the components:
+
+InputField
+Name
+[ Enter your name ]
+Please enter your full name
+
+DataTable
+Select	ID	Name	Age
+☐	1	Alice	24
+☐	2	Bob	28
+☐	3	Charlie	30
+
+📦 Deployment
+🔗 GitHub Repository: https://github.com/vaidehiaher/Frontend
+🌈 Live Storybook: https://68b094a04e3f457012f3b484-umskzdnxur.chromatic.com/
+
+👩‍💻 Author
+Vaidehi Aher
+🌐 GitHub: https://github.com/vaidehiaher
+💼 LinkedIn: https://www.linkedin.com/in/vaidehi-aher-290595316/
